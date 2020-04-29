@@ -13,7 +13,6 @@ func main() {
 
 func isName(name string) (string, bool) {
 	arr := []string{"bagas", "dinda", "faisal", "alvin"}
-
 	for i := 0; i < len(arr); i++ {
 		if arr[i] == name {
 			return "found", true
